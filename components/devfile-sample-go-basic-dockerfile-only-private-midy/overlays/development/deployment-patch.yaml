@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-go-basic-dockerfile-only-private-midy
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-qdui-tenant/mc-golang-nested/devfile-sample-go-basic-dockerfile-only-private-midy@sha256:42417983a6633a867b6b6a9cb00f9d8dfcac9c8e93df2ca3fd3d664ce487b99b
+        name: container-image
+        resources: {}
+status: {}
