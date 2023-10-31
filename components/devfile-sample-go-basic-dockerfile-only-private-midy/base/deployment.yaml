@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-go-basic-dockerfile-only-private-midy
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-qdui-tenant/mc-golang-nested/devfile-sample-go-basic-dockerfile-only-private-midy@sha256:42417983a6633a867b6b6a9cb00f9d8dfcac9c8e93df2ca3fd3d664ce487b99b
         imagePullPolicy: Always
         name: container-image
         ports:
